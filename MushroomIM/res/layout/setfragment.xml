@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#E4E3E3">
+
+    <TextView
+       android:layout_marginTop="20dp"
+        android:id="@+id/btn_startconver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:background="#ffffff"
+         android:textSize="20sp"
+         android:textStyle="italic"
+         android:gravity="center"
+         android:textColor="@android:color/black"
+        android:text="用户信息设置" />
+	<RelativeLayout 
+	    android:id="@+id/rl_touxian"
+	    android:layout_marginTop="10dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/setfragment_item_color_selector"
+	    android:clickable="true"
+	    android:layout_gravity="center_vertical"
+	    >
+	    <TextView 
+	        android:id="@+id/tv_touxian"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_centerVertical="true"
+	        android:text="头像"
+	        android:textColor="@android:color/black"
+	        android:paddingLeft="10dp"
+	        android:textSize="20sp"/>
+
+	    <ImageView
+	        android:id="@+id/iv_settouxian"
+	        android:layout_centerVertical="true"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_marginRight="5dp"
+	        android:layout_marginBottom="3dp"
+	        android:layout_marginTop="3dp"
+	        android:layout_alignParentRight="true"
+	        android:scaleType="fitXY"
+	        android:layout_gravity="center_vertical"
+	        android:src="@drawable/defult_touxian" />
+
+	</RelativeLayout>
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0.5dp"
+	   android:layout_marginLeft="5dp"
+	   android:layout_marginRight="5dp"
+	    android:background="#000000"/>
+		<RelativeLayout 
+		      android:background="@drawable/setfragment_item_color_selector"
+	    android:clickable="true"
+		    android:id="@+id/rl_nicheng"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    >
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text="昵称"
+	         android:layout_centerVertical="true"
+	        android:textColor="@android:color/black"
+	        android:paddingLeft="10dp"
+	        android:textSize="20sp"/>
+
+	 <TextView 
+	     android:id="@+id/tv_nicheng"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text="***"
+	         android:layout_centerVertical="true"
+	        android:textColor="@android:color/black"
+	        android:paddingLeft="10dp"
+	        android:textSize="20sp"
+	        android:paddingRight="10dp"
+	        android:layout_alignParentRight="true"/>
+
+	</RelativeLayout>
+	<View 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0.5dp"
+	    android:layout_marginLeft="5dp"
+	   android:layout_marginRight="5dp"
+	    android:background="#000000"/>
+		<RelativeLayout 
+		      android:background="@drawable/setfragment_item_color_selector"
+	    android:clickable="true"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    >
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text="用户ID"
+	         android:layout_centerVertical="true"
+	        android:textColor="@android:color/black"
+	        android:paddingLeft="10dp"
+	        android:textSize="20sp"/>
+
+	 <TextView 
+	     android:id="@+id/tv_userid"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text="***"
+	         android:layout_centerVertical="true"
+	        android:textColor="@android:color/black"
+	        android:paddingLeft="10dp"
+	        android:textSize="20sp"
+	        android:paddingRight="10dp"
+	        android:layout_alignParentRight="true"/>
+
+	</RelativeLayout>
+	    <Button
+	        android:id="@+id/btn_aboutapp"
+       android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          android:background="@drawable/setfragment_item_color_selector"
+         android:textSize="25sp"
+         android:textStyle="italic"
+         android:gravity="center"
+         android:textColor="@android:color/black"
+        android:text="关于" />
+	            <Button
+	                android:id="@+id/btn_changeid"
+       android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          android:background="@drawable/setfragment_item_color_selector"
+         android:textSize="25sp"
+         android:textStyle="italic"
+         android:gravity="center"
+         android:textColor="@android:color/black"
+        android:text="切换账号" />
+	      <Button
+	          android:id="@+id/btn_logout"
+       android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setfragment_item_color_selector"
+         android:textSize="25sp"
+         android:textStyle="italic"
+         android:gravity="center"
+         android:textColor="@android:color/holo_red_light"
+        android:text="退出" />
+	      <Button
+	          android:id="@+id/btn_finish"
+       android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setfragment_item_color_selector"
+         android:textSize="25sp"
+         android:textStyle="italic"
+         android:gravity="center"
+         android:textColor="@android:color/holo_red_light"
+        android:text="退出" />
+	  
+	
+</LinearLayout>

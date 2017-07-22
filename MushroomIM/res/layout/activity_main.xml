@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#44eeffbb">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+         >
+         <ImageView 
+             android:paddingLeft="3dp"
+             android:layout_width="wrap_content"
+             android:layout_height="fill_parent"
+             android:src="@drawable/app"
+             />
+         <TextView 
+             android:layout_gravity="center_vertical"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="wrap_content"
+             android:text="蘑菇IM"
+             android:textColor="@android:color/white"
+             android:paddingLeft="10dp"
+             android:textSize="18sp"/>
+         <ImageView
+             android:id="@+id/img_search"
+             android:layout_width="wrap_content"
+             android:layout_height="fill_parent"
+             android:src="@drawable/addcontact"
+             android:clickable="true"
+             android:layout_marginRight="10dp"
+            />
+         
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_mian"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/fg_mian_item"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal" 
+        android:background="#eeffffff">
+
+        <RadioButton
+            android:id="@+id/rb_message"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/mian_message_selector"
+            android:paddingTop="5dp"
+            android:text="消息"
+             android:gravity="center_horizontal"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_contact"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/mian_group_selector"
+            android:paddingTop="5dp"
+            android:text="通讯录"
+             android:gravity="center_horizontal"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="12sp" />
+<!--  
+        <RadioButton
+            android:id="@+id/rb_group"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/mian_group_selector"
+            android:paddingTop="5dp"
+            android:text="群组"
+            android:gravity="center_horizontal"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="12sp" />
+-->
+        <RadioButton
+            android:id="@+id/rb_discussgroup"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/mian_content_selector"
+            android:paddingTop="5dp"
+            android:text="我"
+             android:gravity="center_horizontal"
+            android:textColor="@color/radiobutton_textcolor"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+</LinearLayout>

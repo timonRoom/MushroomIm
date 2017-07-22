@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关于"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        />
+     <TextView 
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version : 1.0"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+      <TextView 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author : Timon "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+       <TextView 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="功能简介 ：1.即时通讯基本功能(融云IM集成)"
+        android:autoLink="all"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+          <TextView 
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-        2.用户信息管理(账号注册，用户信息修改，好友)"
+        android:autoLink="all"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+          <TextView 
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-        3.聊天功能(文字，语音，表情包，文件传送,已读消息提示,离线消息推送)"
+        android:autoLink="all"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+          <TextView 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="涉及权限 ： SD卡读取，网络访问，相机 ，录音"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+            <TextView 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="适应版本 ：Android 4.0及以上版本 "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+                       <TextView 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ ：７８２６３６２００ "
+        android:autoLink="all"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+	            <TextView 
+	                
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="如有任何意见和建议请联系作者 "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+</LinearLayout>

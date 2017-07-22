@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#E4E3E3">
+    <LinearLayout 
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="5dp"
+        android:background="#ffffff"
+        >
+        
+        <ImageView
+            android:id="@+id/iv_search_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingRight="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/search_unin" />
+        <AutoCompleteTextView 
+            android:id="@+id/et_contact_context"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="搜索"
+            android:layout_gravity="left"
+            android:gravity="center_vertical"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            />
+
+    </LinearLayout>
+       <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/dialog"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_gravity="center"
+        android:background="@drawable/show_head_toast_bg"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="30.0dip"
+        android:visibility="invisible" />
+
+    <contactutils.SideBar
+        android:id="@+id/sidebar"
+        android:layout_width="20dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
+	<!-- 
+	 <ListView 
+	    android:id="@+id/lv_contact"
+	    android:layout_marginTop="10dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    ></ListView>
+	
+	 -->
+	
+
+</LinearLayout>
